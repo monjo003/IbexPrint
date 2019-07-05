@@ -1,0 +1,189 @@
+
+body {
+  height: 100%;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.checked {
+  color: orange;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: black;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #fff;
+  color: #ef8172;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar-toggler-icon  {
+color : gold;
+}
+
+.navbar-brand {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+
+
+
+
+}
+
+.nav-item {
+  padding: 15px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+   color: #9a6800;
+}
+
+
+
+/* Title Section */
+.colored-section-top{
+   background-image:url("https://i.ibb.co/R9607k7/ibex-desktop.jpg");  /* url('../../images/ibex-desktop.jpg')  */
+
+   height: 610px ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:contain;
+
+
+}
+#title {
+
+  background-color: #f0eceb;
+  color: #aa863a;
+  text-align: left;
+
+}
+
+#title .container-fluid {
+  padding: 3% 3% 7%;
+}
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+.font-weight-bold{
+  color: #fff;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+.footer{
+  background-color: #FFC300;
+}
+
+.social-icon {
+  margin: 30px 15px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/*contact us */
+@media (min-width: 768px) {
+    .fixed-posi {
+        width: 50%;
+        margin-left: 50%;
+        height:100%;
+        position:fixed;
+    }
+}
