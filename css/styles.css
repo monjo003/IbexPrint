@@ -44,6 +44,10 @@ p {
   color: #A67C00;
 }
 
+.services-header{
+    color: #A67C00 !important;
+}
+
 .white-section {
   background-color: #fff;
 }
@@ -53,6 +57,12 @@ p {
 .navbar-toggler-icon  {
 color : gold;
 }
+
+.nav-collapse{
+  background-color: white;
+  opacity: .7;
+}
+
 
 .navbar-brand {
   font-family: 'Libre Barcode 128 Text', cursive;
@@ -75,18 +85,26 @@ color : gold;
 
 /* Title Section */
 .colored-section-top{
-   background-image:url("https://i.ibb.co/R9607k7/ibex-desktop.jpg");  /* url('../../images/ibex-desktop.jpg')  */
 
-   height: 610px ;
+   background-image: url(../images/ibex-desktop.jpg);
+   height: 560px ;
    background-repeat: no-repeat;
    background-position: center;
    background-size:contain;
 
 
 }
+
+
+
+
+
+
+
+
 #title {
 
-  background-color: #f0eceb;
+  background-color: #fff;
   color: #aa863a;
   text-align: left;
 
@@ -177,7 +195,7 @@ color: #A67C00;
   background-color: #DCB239;
 }
 
-.fab{color: blue;}
+
 
 
 .footer-middle{
@@ -205,6 +223,9 @@ color: #A67C00;
 
   #title {
     text-align: center;
+    /*  background-color: black; */
+    background-image: url();
+     background-image: url(../images/ibex-mobile.jpg);
   }
 
   .title-image {
@@ -224,7 +245,7 @@ color: #A67C00;
     }
 }
 
-
+/*maps */
 .map-container-5{
 overflow:hidden;
 padding-bottom:56.25%;
