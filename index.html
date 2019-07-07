@@ -168,30 +168,61 @@
 
 
 
-  <section class=" contact_us container-fluid" id = "contact_us">
-    <div class="row">
 
 
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-xl-8 offset-xl-2 py-5">
-              <h3 class="contactc_us_text big-heading ">Contact Us</h3>
-
-            <div class="google_map">
-
-              <p>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.7427261130806!2d-93.26469388445973!3d44.94889777909827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f627fc1fd69049%3A0x10c259d8119ee6c4!2sChicago+Furniture+Warehouse!5e0!3m2!1sen!2sus!4v1547588860820"
-                  width="85%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe> </p>
-            </div>
-            <br />
-
-            <h1>Contact Us </h1>
 
 
-            <form id="contact-form" method="post" action="contact.php" role="form">
+  <section class=" contact_us row container-fluid" id = "contact_us">
+<div class="container">
+  <h3 class="big-heading contactc_us_text">Contact Us</h3>
+</div>
+
+
+  <div class="col-md-6 mb-4">
+
+    <!--Card-->
+    <div class="card card-cascade narrower">
+
+      <!--Card image-->
+      <div class="view view-cascade  bg-warning">
+        <h4 class="card-title">Our loaction</h4>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+
+        <!--Google map-->
+        <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 478px">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.7427261130806!2d-93.26469388445973!3d44.94889777909827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f627fc1fd69049%3A0x10c259d8119ee6c4!2sChicago+Furniture+Warehouse!5e0!3m2!1sen!2sus!4v1547588860820=&output=embed"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+      <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <!--Card-->
+    <div class="card card-cascade narrower">
+
+      <!--Card image-->
+      <div class="view view-cascade  bg-warning">
+        <h4 class="card-title">Email us</h4>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+
+        <form id="contact-form" method="post" action="contact.php" role="form" style="height: 478px">
 
               <div class="messages"></div>
 
@@ -250,25 +281,25 @@
                 <div class="row">
                   <div class="col-md-12">
                     <p class="text-muted">
-                      <strong>*</strong> These fields are required.
+                      <strong>*</strong> These fields are required.</p>
                   </div>
                 </div>
               </div>
 
             </form>
 
-          </div>
-
-        </div>
 
       </div>
+      <!--/.Card content-->
+
     </div>
+    <!--/.Card-->
 
+  </div>
+  <!--Grid column-->
 
-
-
-  </section>
-
+</section>
+<!--Grid row-->
 
 
 
@@ -279,7 +310,7 @@
 <!-- Footer -->
 <footer class="footer-middle page-footer font-small unique-color-dark">
 
-  <div style="background-color: #eadca6;">
+  <div class = "social_networks" >
     <div class="container">
 
       <div class="row py-4 d-flex align-items-center">
@@ -291,9 +322,11 @@
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
           <!-- Facebook -->
+
           <a class="fb-ic">
-            <i class="fab fa-facebook-f  mr-4"> </i>
+            <i class="fab fa-facebook-f mr-4"> </i>
           </a>
+
           <!-- Twitter -->
           <a class="tw-ic">
             <i class="fab fa-twitter  mr-4"> </i>

@@ -172,16 +172,24 @@ color: #A67C00;
 
 
 }
+
+.social_networks{
+  background-color: #DCB239;
+}
+
+.fab{color: blue;}
+
+
 .footer-middle{
-  background-color: #e2c275;
+  background-color: #EFEFEF;
 }
 
 .text-uppercase{
-  color: #fff;
+  color: #DCB239;
 }
 .footer-copyright{
-  background-color: #c36a2d;
-  color: #fff
+  background-color: #fff ;
+
 }
 
 
@@ -192,11 +200,6 @@ color: #A67C00;
 
 
 
-
-
-.social-icon {
-  margin: 30px 15px;
-}
 
 @media (max-width: 1028px) {
 
@@ -219,4 +222,19 @@ color: #A67C00;
         height:100%;
         position:fixed;
     }
+}
+
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
