@@ -41,7 +41,7 @@ p {
 
 .colored-section {
   background-color: #fff;
-  color: #ef8172;
+  color: #A67C00;
 }
 
 .white-section {
@@ -59,10 +59,6 @@ color : gold;
   font-size: 2.5rem;
   font-weight: bold;
   color: black;
-
-
-
-
 }
 
 .nav-item {
@@ -101,10 +97,13 @@ color : gold;
 }
 
 
-/* Features Section */
+/* Services Section */
 
 #features {
   position: relative;
+}
+.service-section{
+  background-color: #f4f4f4;
 }
 
 .feature-title {
@@ -116,23 +115,24 @@ color : gold;
 }
 
 .icon {
-  color: #ef8172;
+  color: #A67C00;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #BF9B30;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #A67C00;
+
 }
 
 .testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
+  font-size: 2rem;
+  line-height: 2.0;
   color:#fff;
 }
 
@@ -158,11 +158,41 @@ color : gold;
 /* CTA Section */
 
 
+.contact_us{
+  background-color: #F4F4F4;
+}
+.contactc_us_text{
+color: #A67C00;
+}
+
+
+
 /* Footer Section */
 .footer{
-  /* background-color: #FFC300; */
-  background-color: #6351ce;
+
+
 }
+.footer-middle{
+  background-color: #e2c275;
+}
+
+.text-uppercase{
+  color: #fff;
+}
+.footer-copyright{
+  background-color: #c36a2d;
+  color: #fff
+}
+
+
+
+
+
+
+
+
+
+
 
 .social-icon {
   margin: 30px 15px;
