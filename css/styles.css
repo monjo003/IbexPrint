@@ -61,7 +61,7 @@ color : gold;
 
 
 .nav-bar-icon{
-color: black !important;
+color: #A67C00 !important;
 }
 
 
@@ -224,7 +224,7 @@ color: #A67C00;
 
   #title {
     text-align: center;
-    /*  background-color: black; */
+
 
      background-image: url(../images/ibex-mobile.jpg);
   }
