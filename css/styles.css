@@ -58,9 +58,10 @@ p {
 color : gold;
 }
 
-.nav-collapse{
-  background-color: white;
-  opacity: .7;
+
+
+.nav-bar-icon{
+background-color: black !important;
 }
 
 
@@ -224,13 +225,17 @@ color: #A67C00;
   #title {
     text-align: center;
     /*  background-color: black; */
-    background-image: url();
+
      background-image: url(../images/ibex-mobile.jpg);
   }
 
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+  .nav-collapse{
+    background-color: white;
+    opacity: .7;
   }
 }
 
